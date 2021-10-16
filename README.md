@@ -41,6 +41,10 @@ The Easy Ensemble AdaBoost Classifier showed the best recall scores.  Furthermor
 
 image 1 
 
+<p align="center">
+ <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture1.png" width="600" height="350" />
+</p>
+ 
 
 ## Summary
 
