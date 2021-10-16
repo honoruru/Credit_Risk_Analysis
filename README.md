@@ -39,10 +39,8 @@ Recall, or sensitivity, measures how many loans were correctly classified.  Reca
 
 The Easy Ensemble AdaBoost Classifier showed the best recall scores.  Furthermore, of all the models, this model resulted in the best balance between the high_risk (0.91) and low_risk (0.94) scores, meaning the classifications were almost equally accurate for the two groups.
 
-image 1 
-
 <p align="center">
- <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture1.png" width="600" height="350" />
+ <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture1.png" width="700" height="300" />
 </p>
  
 
@@ -52,15 +50,23 @@ Based on the metrics discussed above, one would feel justified recommending the 
 
 When looking at credit risk decisions, it helps to view the confusion matrix as below:
 
-image 2 
+<p align="center">
+ <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture2.png" width="700" height="450" />
+</p>
 
 When classifying loans by risk, one wants to maximize the True Lows and True Highs.  Further, one wants to minimize, if not eliminate False Lows.  False Highs are undesirable, however, they are not as penalizing as False Lows.  False Highs represent lost opportunities for Low_risk loans that were incorrectly classified as High and therefore likely not to be made.  Comparing the confusion matrices of the worst (Undersampling) to the best (Easy Ensemble AdaBoost Classifier) illustrates the range of difference in performance. 
 
 Undersampling
  image 3 
+<p>
+ <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture3.png" width="250" height="150" />
+</p>
 
 Easy Ensemble AdaBoost Classifier
  image 4
+<p>
+ <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture4.png" width="250" height="150" />
+</p>
 
 Compared to all models, Easy Ensemble AdaBoost Classifier has maximized the True Lows and True Highs, and minimized False Lows and False Highs. 
 
