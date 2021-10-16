@@ -17,9 +17,9 @@ We created and evaluated six algorithms:
 5. Balanced Random Forest Classifier
 6. Easy Ensemble AdaBoost Classifier
 
-Precision is a measure of how likely a classification by the algorithm is accurate.  The first observation, as expected, is that the precision score is meaningless for comparing the models as the data is significantly unbalanced.  As such, Low_risk received a score of 1.00 for all models. High_risk received a score 0.01 to 0.07, with the Easy Ensemble AdaBoost Classifier model achieving the highest score.  Solely based on this metric, it is difficult to tell the models apart or assess their strength other than to say Easy Ensemble AdaBoost Classifier did the best.
+Precision is a measure of how likely a classification by the algorithm is accurate.  The first observation, as expected, is that the precision score is meaningless for comparing the models as the data is significantly unbalanced.  As such, Low_risk received a score of 1.00 for all models. High_risk received scores of 0.01 to 0.07, with the Easy Ensemble AdaBoost Classifier model achieving the highest score.  Solely based on this metric, it is difficult to tell the models apart or assess their strength other than to say Easy Ensemble AdaBoost Classifier did the best.
 
-Balanced accuracy is a metric that one can use when evaluating how good a binary classifier is.  It is especially useful when the classes are imbalanced, as in the case of credit risk, where good loans easily outnumber risky loans.  The balanced accuracy scores were mediocre, although better than random for the first four models.  Oversampling performed best of the four.
+Balanced accuracy is a metric that one can use when evaluating how good a binary classifier is.  It is especially useful when the classes are imbalanced, as in the case of credit risk, where good loans easily outnumber risky loans.  For the first four models, the balanced accuracy scores were mediocre, although better than random.  Oversampling performed best of the four.
 
 1. Oversampling – 0.65139 
 2. SMOTE Oversampling – 0.62669 
@@ -32,7 +32,7 @@ When ensemble models were employed, balanced accuracy scores improved notably.  
 6. Easy Ensemble AdaBoost Classifier – 0.92525 (best)
 
 
-Recall, or sensitivity, measures how many loans were correctly classified.  Recall scores followed the path of improvement demonstrated by the balanced accuracy scores for the six models.  For the first four, Undersampling had the worst recall scores, just as it had the worst balanced accuracy score.  The ensemble models again performed the best, showing recall scores approaching 1.00.  Furthermore, of all the models, 
+Recall, or sensitivity, measures how many loans were correctly classified.  Recall scores followed the path of improvement demonstrated by the balanced accuracy scores for the six models.  For the first four, Undersampling had the worst recall scores, just as it had the worst balanced accuracy score.  The ensemble models again performed the best, showing recall scores approaching 1.00.
 
 5. Balanced Random Forest Classifier – 0.91 (average)
 6. Easy Ensemble AdaBoost Classifier – 0.94 (average)
