@@ -59,13 +59,13 @@ When classifying loans by risk, one wants to maximize the True Lows and True Hig
 Undersampling
  image 3 
 <p>
- <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture3.png" width="200" height="80" />
+ <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture3.png" width="250" height="80" />
 </p>
 
 Easy Ensemble AdaBoost Classifier
  image 4
 <p>
- <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture4.png" width="200" height="80" />
+ <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture4.png" width="250" height="80" />
 </p>
 
 Compared to all models, Easy Ensemble AdaBoost Classifier has maximized the True Lows and True Highs, and minimized False Lows and False Highs. 
