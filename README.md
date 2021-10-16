@@ -54,7 +54,7 @@ When looking at credit risk decisions, it helps to view the confusion matrix as 
  <img src="https://github.com/honoruru/Credit_Risk_Analysis/blob/main/images/Picture2.png" width="600" height="200" />
 </p>
 
-When classifying loans by risk, one wants to maximize the True Lows and True Highs.  Further, one wants to minimize, if not eliminate False Lows.  False Highs are undesirable, however, they are not as penalizing as False Lows.  False Highs represent lost opportunities for Low_risk loans that were incorrectly classified as High and therefore likely not to be made.  Comparing the confusion matrices of the worst (Undersampling) to the best (Easy Ensemble AdaBoost Classifier) illustrates the range of difference in performance. 
+When classifying loans by risk, one wants to maximize the True Lows and True Highs.  Further, one wants to minimize, if not eliminate False Lows.  False Highs are also undesirable, however, they are not as penalizing as False Lows.  False Highs represent lost opportunities for Low_risk loans that were incorrectly classified as High and therefore likely not to be made.  Comparing the confusion matrices of the worst (Undersampling) to the best (Easy Ensemble AdaBoost Classifier) illustrates the range of difference in performance. 
 
 Undersampling
  image 3 
