@@ -46,7 +46,7 @@ The Easy Ensemble AdaBoost Classifier showed the best recall scores.  Furthermor
 
 ## Summary
 
-Based on the metrics discussed above, one would feel justified recommending the Easy Ensemble AdaBoost Classifier be selected for future use.  The obvious second choice would be the Balanced Random Forest Classifier model.  When one reviews the respective confusion matrices, it becomes clearer that the ensemble models outperform the others with Easy Ensemble AdaBoost Classifier being the clear choice.
+Based on the metrics discussed above, one would feel justified recommending the Easy Ensemble AdaBoost Classifier be selected for future use.  The obvious second choice would be the Balanced Random Forest Classifier model.  When one reviews the respective confusion matrices, it becomes evident that the ensemble models outperform the others with Easy Ensemble AdaBoost Classifier being the clear choice.
 
 When looking at credit risk decisions, it helps to view the confusion matrix as below:
 
